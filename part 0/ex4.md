@@ -21,7 +21,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: raw datat of notes
+    server-->>browser: raw data of notes (data.json)
     deactivate server
 
     
