@@ -6,7 +6,7 @@ sequenceDiagram
     browser->>server: POST https://fullstack-exampleapp.herokuapp.com/new-note
     activate server
     Note left of server:server accesses data,creates new notes object and adds it to "notes" array
-    server->>browser:CODE 302 GET /notes
+    server->>browser:CODE 302 GET https://fullstack-exampleapp.herokuapp.com/notes
 
     browser->>server: GET main.css
     activate server
